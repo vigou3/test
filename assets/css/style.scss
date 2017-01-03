@@ -4,7 +4,9 @@
 @import "{{ site.theme }}";
 
 .language-menu {
-  color: #000;
-  text-align: left;
-  padding: 2rem
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    padding-left: 5rem;
 }
