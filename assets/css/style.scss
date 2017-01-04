@@ -1,10 +1,16 @@
 ---
 ---
 
-$header-bg-color: #916CAC;
-$header-bg-color-secondary: #65318F;
-
 @import "{{ site.theme }}";
+
+// $header-bg-color: #916CAC;
+// $header-bg-color-secondary: #65318F;
+
+.page-header {
+    background-color: #65318F;
+    background-image: none;
+}
+
 
 // .language-menu {
 //     color: $blockquote-text-color;
