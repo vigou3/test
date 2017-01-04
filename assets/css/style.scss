@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .language-menu {
-    color: $header-heading-color;
+    color: $blockquote-text-color;
     font-size: 80%;
     position: absolute;
     top: 5px;
@@ -18,8 +18,3 @@
 // @media screen and (min-width: 42em) and (max-width: 64em) { .language-menu { right: 8rem; } }
 // @media screen and (max-width: 42em) { .language-menu { right: 1rem; } }
 
-.site-footer-language {
-    margin-top: 1rem;
-    display: block;
-    color: $blockquote-text-color;
-}
