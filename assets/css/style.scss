@@ -3,16 +3,19 @@
 
 @import "{{ site.theme }}";
 
-.language-menu {
-    color: $blockquote-text-color;
-    font-size: 80%;
-    position: absolute;
-    top: 5px;
-}
+$header-bg-color: #916CAC;
+$header-bg-color-secondary: #65318F;
 
-.page-header {
-    position: relative
-}
+// .language-menu {
+//     color: $blockquote-text-color;
+//     font-size: 80%;
+//     position: absolute;
+//     top: 5px;
+// }
+
+// .page-header {
+//     position: relative
+// }
 
 // @media screen and (min-width: 64em) { .language-menu { right: 24rem; } }
 // @media screen and (min-width: 42em) and (max-width: 64em) { .language-menu { right: 8rem; } }
