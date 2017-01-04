@@ -1,10 +1,10 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 $header-bg-color: #916CAC;
 $header-bg-color-secondary: #65318F;
+
+@import "{{ site.theme }}";
 
 // .language-menu {
 //     color: $blockquote-text-color;
