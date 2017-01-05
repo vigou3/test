@@ -1,3 +1,6 @@
+Presentation
+============
+
 Emacs for macOS Modified is a distribution of GNU Emacs **25.1**
 (released September 17, 2016) with the following additions:
 
@@ -27,17 +30,17 @@ compiled by David Caldwell and distributed on
 [Emacs for Mac OS X](http://emacsformacosx.com)
 
 Latest release
-==============
+--------------
 
-Version 25.1-modified-2 ([Release notes]({{ site.github.repository_url }}/releases/tag/v25.1-1-modified-3/))
+Version 25.1-1-modified-3 ([Release notes]({{ site.github.repository_url }}/releases/tag/v25.1-1-modified-3/))
 
 System requirements
-===================
+-------------------
 
 macOS 10.4 or later
 
 Installation
-============
+------------
 
 Open the disk image and copy Emacs in the `Applications` folder or any
 other folder.
@@ -62,6 +65,7 @@ For more information of the various options to run Emacs on macOS, see
 the [Emacs wiki](http://www.emacswiki.org/emacs/EmacsForMacOS).
 
 Also available
---------------
+==============
 
-[Emacs for Windows Modified]({{ site.github.owner_url }}/emacs-modified-windows/)
+[Emacs for Windows Modified]({{ site.github.owner_url }}/emacs-modified-windows/). 
+Same idea, with a user friendly installer.
