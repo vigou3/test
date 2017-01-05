@@ -1,4 +1,4 @@
-Emacs for OS X Modified is a distribution of GNU Emacs **25.1**
+Emacs for macOS Modified is a distribution of GNU Emacs **25.1**
 (released September 17, 2016) with the following additions:
 
 -   [ESS](http://ess.r-project.org) 16.10;
@@ -23,22 +23,27 @@ Emacs for OS X Modified is a distribution of GNU Emacs **25.1**
     configuration files to make everything work.
 
 This distribution is based on the latest stable release of GNU Emacs
-compiled by David Caldwell and distributed on [Emacs for Mac
-OS X](http://emacsformacosx.com)
+compiled by David Caldwell and distributed on
+[Emacs for Mac OS X](http://emacsformacosx.com)
+
+Latest release
+==============
+
+Version 25.1-modified-2 ([Release notes]({{ site.github.repository_url }}/releases/tag/v25.1-1-modified-3/))
 
 System requirements
--------------------
+===================
 
 macOS 10.4 or later
 
 Installation
-------------
+============
 
 Open the disk image and copy Emacs in the `Applications` folder or any
 other folder.
 
 Characteristics
----------------
+===============
 
 This distribution of Emacs is based on the NeXTstep port part of the
 official sources of GNU Emacs. Other than the additions mentioned above
@@ -46,17 +51,17 @@ and the minor configurations found in the `site-start.el` file, this is
 a stock distribution of Emacs. Users of Emacs on other platforms will
 appreciate the similar look and feel of the application.
 
-Those looking for a more Mac-like version of Emacs should consider
-[Aquamacs](http://aquamacs.org "Aquamacs"). I used Aquamacs myself for
+Those looking for a more Mac-like version of Emacs may consider
+[Aquamacs](http://aquamacs.org). I used Aquamacs myself for
 two years, but I got tired of disabling the newer “features” in each
 release of the application. For me Aquamacs insists too much on opening
 new frames and on playing with fonts. Moreover, ESS is not kept up to
 date on a regular basis.
 
-For more information of the various options to run Emacs on OS X, see
-the [Emacs
-wiki](http://www.emacswiki.org/emacs/EmacsForMacOS "Emacs Wiki").
+For more information of the various options to run Emacs on macOS, see
+the [Emacs wiki](http://www.emacswiki.org/emacs/EmacsForMacOS).
 
-### Also available
+Also available
+--------------
 
-[Windows version]({{ site.github.owner_url }}/emacs-modified-windows/ "Emacs for Windows Modified")
+[Emacs for Windows Modified]({{ site.github.owner_url }}/emacs-modified-windows/)
