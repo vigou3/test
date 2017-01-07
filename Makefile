@@ -8,7 +8,7 @@
 # http://github.com/vigou3/emacs-modified-macos
 
 # Get version strings in Makeconf
-include ./Makeconf
+#include ./Makeconf
 
 all : 
 	@echo ----- Updating the web page...
@@ -25,7 +25,7 @@ all :
 	    -e 's/<DMGFILE>/${DMGFILE}/'      \
 	    _layouts/default.html.in > _layouts/default.html
 	@echo ----- Publishing the page on GitHub...
-	git commit -a -m "Updating the web page for version ${VERSION}" && \
-	git push
+#	git commit -a -m "Updating the web page for version ${VERSION}" && \
+#	git push
 	@echo ----- Done publishing
 
