@@ -3,18 +3,14 @@
 
 @import "{{ site.theme }}";
 
-$header-bg-color: #916CAC;
-$header-bg-color-secondary: #65318F;
-$section-headings-color: #000;
-
 .page-header {
     background-color: #65318F;
     background-image: linear-gradient(120deg, #65318F, #916CAC);
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//     color: #000;
-// }
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
 
 // .language-menu {
 //     color: $blockquote-text-color;
