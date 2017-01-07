@@ -1,25 +1,17 @@
-# Makefile for GNU Emacs.app Modified
+# Makefile for GitHub page of GNU Emacs for macOS Modified
 
-# Copyright (C) 2014 Vincent Goulet
+# Copyright (C) 2017 Vincent Goulet
 
 # Author: Vincent Goulet
 
-# This file is part of GNU Emacs.app Modified
-# http://vgoulet.act.ulaval.ca/emacs
+# This file is part of GNU Emacs for macOS Modified
+# http://github.com/vigou3/emacs-modified-macos
 
-# This Makefile will create a disk image to distribute a single
-# architecture or universal version of GNU Emacs. For a universal
-# build, two separate builds (i386 and ppc) are needed.
-#
-# The code of this Makefile is based on a file created by Remko
-# Troncon (http://el-tramo.be/about).
-
-# Set most variables in Makeconf
+# Get version strings in Makeconf
 include ./Makeconf
 
 all : 
-	@echo ----- Updating web page...
-	LANG=ISO-8859-1 \
+	@echo ----- Updating the web page...
 	sed -e 's/<ESSVERSION>/${ESSVERSION}/'       \
 	    -e 's/<AUCTEXVERSION>/${AUCTEXVERSION}/' \
 	    -e 's/<ORGVERSION>/${ORGVERSION}/'     \
@@ -32,5 +24,8 @@ all :
 	sed -e 's/<VERSION>/${VERSION}/g'     \
 	    -e 's/<DMGFILE>/${DMGFILE}/'      \
 	    _layouts/default.html.in > _layouts/default.html
-	@echo ----- Done updating web page
+	@echo ----- Publishing the page on GitHub...
+	git commit -a -m "Updating the web page for version ${VERSION}" && \
+	git push
+	@echo ----- Done publishing
 

@@ -45,8 +45,8 @@ Installation
 Open the disk image and copy Emacs in the `Applications` folder or any
 other folder.
 
-Characteristics
-===============
+Philosophy
+==========
 
 This distribution of Emacs is based on the NeXTstep port part of the
 official sources of GNU Emacs. Other than the additions mentioned above
