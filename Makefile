@@ -1,14 +1,16 @@
 # Makefile for GitHub page of GNU Emacs for macOS Modified
-
+#
 # Copyright (C) 2017 Vincent Goulet
-
+#
 # Author: Vincent Goulet
-
+#
 # This file is part of GNU Emacs for macOS Modified
 # http://github.com/vigou3/emacs-modified-macos
 
 # Get version strings in Makeconf
-#include ./Makeconf
+ifeq (${VERSION},)
+  include ./Makeconf
+endif
 
 all : 
 	@echo ----- Updating the web page...
@@ -25,7 +27,7 @@ all :
 	    -e 's/<DMGFILE>/${DMGFILE}/'      \
 	    _layouts/default.html.in > _layouts/default.html
 	@echo ----- Publishing the page on GitHub...
-#	git commit -a -m "Updating the web page for version ${VERSION}" && \
-#	git push
+	git commit -a -m "Updating the web page for version ${VERSION}" && \
+	git push
 	@echo ----- Done publishing
 
