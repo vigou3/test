@@ -8,7 +8,7 @@ Emacs for macOS Modified is a distribution of GNU Emacs **25.1**
 -   [AUCTeX](http://www.gnu.org/software/auctex/) 11.89;
 -   [org](http://orgmode.org/) 9.0.2;
 -   [polymode](https://github.com/vitoshka/polymode) 0.0.0;
--   [markdown-mode](http://jblevins.org/projects/markdown-mode/) 0.0.0;
+-   [markdown-mode](http://jblevins.org/projects/markdown-mode/) ;
 -   [`exec-path-from-shell.el`](https://github.com/purcell/exec-path-from-shell)
     v0.0.0 to import the user's environment (by default `PATH`, `MANPATH` and
     `LANG`) at Emacs startup;
@@ -20,9 +20,9 @@ Emacs for macOS Modified is a distribution of GNU Emacs **25.1**
     to support Subversion 1.7;
 -   [`framepop.el`](http://bazaar.launchpad.net/~vcs-imports/emacs-goodies-el/trunk/view/head:/elisp/emacs-goodies-el/framepop.el)
     to open temporary buffers in a separate frame;
--   [`default.el`]({{ site.github.repository_url }}/tags/v25.1-1-modified-3/default.el)
+-   [`default.el`]({{ site.github.repository_url }}/tags/v25.1-1-modified-999/default.el)
     and
-    [`site-start.el`]({{ site.github.repository_url }}/tags/v25.1-1-modified-3/site-start.el),
+    [`site-start.el`]({{ site.github.repository_url }}/tags/v25.1-1-modified-999/site-start.el),
     configuration files to make everything work.
 
 This distribution is based on the latest stable release of GNU Emacs
@@ -32,7 +32,7 @@ compiled by David Caldwell and distributed on
 Latest release
 --------------
 
-Version 25.1-1-modified-3 ([Release notes]({{ site.github.repository_url }}/releases/tag/v25.1-1-modified-3/))
+Version 25.1-1-modified-999 ([Release notes]({{ site.github.repository_url }}/releases/tag/v25.1-1-modified-999/))
 
 System requirements
 -------------------
@@ -45,8 +45,8 @@ Installation
 Open the disk image and copy Emacs in the `Applications` folder or any
 other folder.
 
-Characteristics
-===============
+Philosophy
+==========
 
 This distribution of Emacs is based on the NeXTstep port part of the
 official sources of GNU Emacs. Other than the additions mentioned above
