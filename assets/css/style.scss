@@ -3,16 +3,27 @@
 
 @import "{{ site.theme }}";
 
+// I prefer the layout of the Cayman theme, but the colors of Slate.
+
+body {
+    color: #373737;
+}
+
+a {
+  color: #007edf;
+}
+
 .page-header {
-    background-color: #65318F;
-    background-image: linear-gradient(120deg, #65318F, #916CAC);
+    background-color: #212121;
+    background-image: linear-gradient(top, #373737, #212121);
 }
 
 .main-content {
     h1, h2, h3, h4, h5, h6 {
-	color: #000;
+	color: #222;
     }
 }
+
 
 // .language-menu {
 //     color: $blockquote-text-color;
