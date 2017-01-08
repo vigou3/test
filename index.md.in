@@ -67,5 +67,4 @@ the [Emacs wiki](http://www.emacswiki.org/emacs/EmacsForMacOS).
 Also available
 ==============
 
-[Emacs for Windows Modified]({{ site.github.owner_url }}/emacs-modified-windows/). 
-Same idea, with a user friendly installer.
+[Emacs Modified for Windows](https://{{ site.github.owner_name }}.{{ site.github.pages_hostname }}/emacs-modified-windows/). Same idea, with a user friendly installer.
