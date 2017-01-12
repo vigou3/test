@@ -16,9 +16,12 @@ a {
 .page-header {
     background: #212121;
     background-image: url('../../images/Suricata-932x295.jpg');
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .main-content {
