@@ -31,9 +31,7 @@ a {
     background-position: center;
 
   @include large {
-    max-width: 64rem;
-    padding: 10rem 6rem 3rem 6rem;
-    margin: 0 auto;
+    padding: 12rem 6rem 2rem 6rem;
   }
 
   @include medium {
@@ -47,6 +45,7 @@ a {
 
 .shaded {
     max-width: 64rem;
+    margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
