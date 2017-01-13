@@ -31,6 +31,10 @@ a {
     background-position: center;
 }
 
+.project-name {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 .latex sub, .latex sup {
   text-transform: uppercase;
 }
@@ -47,7 +51,7 @@ a {
 
 .latex sup {
   font-size: 0.85em;
-  vertical-align: 0.15em;
+  vertical-align: 0.15rem;
   margin-left: -0.36em;
   margin-right: -0.15em;
 }
