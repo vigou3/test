@@ -21,7 +21,7 @@ a {
 
 .page-header {
     color: #000;
-    background: #C3AFA1;
+    background: #574532;
     background-image: url('../../images/Suricata.jpg');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -31,7 +31,7 @@ a {
     background-position: center;
 
   @include large {
-    padding: 3rem 6rem 7rem 6rem;
+    padding: 7rem 6rem 3rem 6rem;
   }
 
   @include medium {
