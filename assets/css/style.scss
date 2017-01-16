@@ -28,7 +28,7 @@ a {
 
 .page-header {
   color: #000;
-  background: #746E6D;
+  background: #6DBDB1;
   background-image: url('../../images/Suricata.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -51,9 +51,12 @@ a {
 }
 
 .shaded {
-  max-width: 52rem;
-  // margin: 0 12rem;
+  margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.5);
+
+  @include large {
+      max-width: 52rem;
+  }
 }
 
 .latex sub, .latex sup {
