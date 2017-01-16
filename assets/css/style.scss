@@ -52,10 +52,10 @@ a {
 
 .shaded {
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0);
 
   @include large {
-      max-width: 52rem;
+      // max-width: 52rem;
   }
 }
 
