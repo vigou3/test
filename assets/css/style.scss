@@ -27,15 +27,33 @@ a {
 }
 
 .page-header {
-    color: #000;
-    background: #574532;
-    background-image: url('../../images/Suricata.jpg');
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
+  color: #000;
+  background: #746E6D;
+  background-image: url('../../images/Suricata.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  @include large {
+    padding: 12rem 6rem 2rem 6rem;
+  }
+
+  @include medium {
+    padding: 8rem 4rem 2rem 4rem;
+  }
+
+  @include small {
+    padding: 2.5rem 1rem 1.5rem 1rem;
+  }
+}
+
+.shaded {
+  max-width: 52rem;
+  margin: 0 12rem;
+  background-color: rgba(255, 255, 255, 0.5);
 
   @include large {
     padding: 12rem 6rem 2rem 6rem;
@@ -48,13 +66,6 @@ a {
   @include small {
     padding: 2rem 1rem;
   }
-}
-
-.shaded {
-    max-width: 52rem;
-    // padding: 2rem 6rem 0rem 6rem;
-    margin: 0 12rem;
-    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .latex sub, .latex sup {
