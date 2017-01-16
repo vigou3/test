@@ -52,20 +52,8 @@ a {
 
 .shaded {
   max-width: 52rem;
-  margin: 0 12rem;
+  // margin: 0 12rem;
   background-color: rgba(255, 255, 255, 0.5);
-
-  @include large {
-    padding: 12rem 6rem 2rem 6rem;
-  }
-
-  @include medium {
-    padding: 3rem 4rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-  }
 }
 
 .latex sub, .latex sup {
